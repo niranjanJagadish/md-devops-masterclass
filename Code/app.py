@@ -137,7 +137,7 @@ else:
     st.subheader("👤 Your Profile")
     st.json(user)
 
-    if st.button("🔒 Logout"):
+    if st.button("🔒 LougOUt Button"):
         st.session_state.registered = False
         st.session_state.user = {}
         st.rerun()
